@@ -3,7 +3,7 @@ import React from "react";
 const ErrorControl = ({ errors, setErrors }) => {
   const handleChange = (e) => {
     // Convert the value to an integer, or default to 0 if invalid
-    const value = parseInt(e.target.value, 10);
+    const value = parseFloat(e.target.value, 10);
 
     // Prevent NaN by ensuring the value is a valid number or 0
     setErrors(isNaN(value) ? 0 : value);
