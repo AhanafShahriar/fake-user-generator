@@ -13,7 +13,7 @@ const RecordTable = ({ users, loadMoreUsers }) => {
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [handleScroll]);
+  });
 
   return (
     <div>
