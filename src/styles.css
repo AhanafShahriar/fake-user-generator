@@ -1,0 +1,16 @@
+.container {
+  margin-top: 20px;
+}
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-control {
+  margin-right: 10px;
+}
+
+.form-range {
+  margin-right: 10px;
+}
